@@ -1,11 +1,7 @@
 
 body {
     font-family: Montserrat;
-}
-
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+    text-align: center;
 }
 
 p {
@@ -27,6 +23,26 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
     line-height: 1.5;
     font-size: 3rem;
+}
+
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#title .container-fluid {
+    padding-top: 3%;
+    text-align: left;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navbar Styling */
@@ -58,10 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Title Section */
 
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
 .title-image {
     width: 60%;
     transform: rotate(25deg);
@@ -71,8 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Features section */
 #features {
-    padding: 7.5% 15%;
-    background-color: #fff;
     z-index: 1;
     position: relative;
 }
@@ -82,7 +92,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -99,9 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Testimonials section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff
 }
 
 .testimonials-text {
@@ -115,13 +122,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7.5% 15%;
-}
-
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -135,7 +137,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
@@ -149,19 +150,6 @@ h1, h2, h3, h4, h5, h6 {
 .price-text {
     line-height: 1.5;
     font-size: 3rem;
-}
-
-#cta {
-    padding: 7.5% 15%;
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
-}
-
-#footer {
-    text-align: center;
-    background-color: #fff;
-    padding: 2%;
 }
 
 .footer-icon {
